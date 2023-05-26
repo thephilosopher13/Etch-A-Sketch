@@ -10,7 +10,18 @@
 </head>
 <body>
     <div class="megaContainer">
+    <div class="menuBar">
         <h1>Etch-A-Sketch</h1>
+        <div class="options">
+            <div class="generateOptions">
+               <input id="squaresPerSide" type="number" min="1" max="64" placeholder="size">
+               <button id="gridGenerator">Generate</button>
+            </div>
+            <div class="otherOptions">
+                <button id="clear">Clear Canvas</button>
+            </div>
+        </div>
+    </div>
         <div class="gridContainer"></div>
     </div>
 </body>

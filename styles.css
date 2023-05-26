@@ -3,16 +3,57 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 100vw;
   }
-  
-.gridContainer {
+
+.megaContainer .menuBar h1 {
+    font-size: 128px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.megaContainer .menuBar .options {
+    margin-bottom: 32px;
+}
+
+.megaContainer .menuBar .options .generateOptions {
+    display: flex;
+    gap: 16px;
+    margin-right: 32px;
+}
+.megaContainer .gridContainer {
     width: 1024px;
     height: 1024px;
     display: grid;
     gap: 0px;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.gridBox.hovered {
+    background-color: black;
+}
+
+button {
+    height: 80px;
+    font-size: 64px;
+    border-radius: 25px;
+}
+
+input {
+    height: 80px;
+    font-size: 64px;
+    border-radius: 25px;
 }
 
