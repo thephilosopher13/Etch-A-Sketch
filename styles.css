@@ -1,0 +1,18 @@
+.megaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.gridContainer {
+    width: 1024px;
+    height: 1024px;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
